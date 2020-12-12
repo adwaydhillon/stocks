@@ -1,4 +1,4 @@
-#Stocks Watchlist
+# Stocks Watchlist #
 * To run the application in the Spring embedded Tomcat server: 
 
 ```
