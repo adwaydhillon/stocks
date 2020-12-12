@@ -39,6 +39,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.10</version>
+		</dependency>
     </dependencies>
 
 	<build>
@@ -46,9 +52,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>com.investments.equities.stocks.StocksApplication</mainClass>
-				</configuration>
+<!--				<configuration>-->
+<!--					<jvmArguments>-->
+<!--						-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8081-->
+<!--					</jvmArguments>-->
+<!--				</configuration>-->
 			</plugin>
 		</plugins>
 	</build>
