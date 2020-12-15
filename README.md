@@ -1,4 +1,6 @@
 # Stocks Watchlist #
+* You will need to set up developer accounts with Alpha Vantage and Twilio and then insert your API keys 
+
 * To run the application in the Spring embedded Tomcat server: 
 
 ```
@@ -18,7 +20,7 @@ mvn spring-boot:run
 </plugin>
 ```
 
-* If you chose the run the application in a standalone application server, make sure the package the service as a war. In the pom.xml:
+* If you chose the run the application in a standalone application server, make sure to package the service as a war. In the pom.xml:
 ```
 <packaging>war</packaging>
 ```
